@@ -1,0 +1,28 @@
+http://127.0.0.1:8000/user/
+
+{
+    "id": 1, 
+    "username": "sample1", 
+    "password": "sample1Password", 
+    "name": "Sample 1", 
+    "last_name": "This is the sample 1", 
+    "email": "sample1@email.com", 
+    "address": "sample1Adress", 
+    "cellphone": "8888888", 
+    "profile": {
+        "birth_date": "2018-05-20T15:30:00", 
+        "gender": "M", 
+        "country": "CountrySample9", 
+        "payment_method":"VISA",
+        "notification_status": true, 
+        "plan_type": "Free"
+    }
+}
+
+
+
+
+http://127.0.0.1:8000/refresh/
+{
+    "refresh": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTYzNDA5OTM4NSwianRpIjoiYWY3MmIzMDk3YzcxNDFmZWEyNDdkMDc1ODJkZDJiODEiLCJ1c2VyX2lkIjoxfQ._BL6Tk3XJgGagoSzPoXymJ_80e4wyZRLAieSDbG0OQU"
+}
